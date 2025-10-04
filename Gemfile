@@ -15,7 +15,7 @@ group :test do
 end
 
 group :development, :test do
-  gem "standard"
+  gem "standard", ">= 1.34.0"
 end
 
 group :load_test do
